@@ -1,5 +1,8 @@
+// 
+//十进制数转换成罗马数字
+
 var judgeNumBetween=function(num,base){
-    //判断num数据哪两个base数字之间 num =90 
+    //判断num数据哪两个base数字之间 
     var baseKeys=[];
     var minKey=0;
     var maxKey=0;
@@ -23,7 +26,7 @@ var judgeNumBetween=function(num,base){
 
 
 var convertAdd=function(num,base,isOver){
-//转换以加为主 90
+//转换以加为主
 var arr=[];
 var result='';
 if(isOver){
